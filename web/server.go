@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"text/template"
 
-	"../core"
 	"github.com/ActiveState/tail"
 	"github.com/gorilla/websocket"
+	"github.com/vjeantet/logviewer/core"
 )
 
 type MData struct {
